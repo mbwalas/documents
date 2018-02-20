@@ -621,7 +621,7 @@ Note: Once the FQDN has been validated using this method, the CA MAY also issue 
 
 ##### 3.2.2.4.10 TLS Using a Random Number
 
-Confirming the Applicant's control over the FQDN by confirming the presence of a Random Value within a Certificate on the Domain Name which is accessible by the CA via TLS over an Authorized Port. The Certificate MUST contain a single dNSName equal to the FQDN being authorized. The Certificate should be presented during the handshake conditions which require substantial changes to TLS termination software to be deployed.
+Confirming the Applicant's control over the FQDN by confirming the presence of a Random Value within a Certificate on the Domain Name which is accessible by the CA via TLS over an Authorized Port. The Certificate MUST contain a single dNSName equal to the FQDN being authorized. The Certificate should be presented during the handshake under conditions which require substantial changes to TLS termination software to be deployed.
 
 #### 3.2.2.5 Authentication for an IP Address
 For each IP Address listed in a Certificate, the CA SHALL confirm that, as of the date the Certificate was issued, the Applicant has control over the IP Address by:
